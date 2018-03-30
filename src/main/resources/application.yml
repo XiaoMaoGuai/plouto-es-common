@@ -1,3 +1,4 @@
 plouto:
   es:
     server: http://192.168.92.155:9200
+    index: plouto_es

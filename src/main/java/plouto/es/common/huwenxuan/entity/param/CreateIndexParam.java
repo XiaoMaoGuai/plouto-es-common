@@ -7,9 +7,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public abstract class BaseParam {
-    private String indices;
-    private String type;
-    private String id;
-    private String name;
+public class CreateIndexParam extends BaseParam {
+
+    private Object source;
 }

@@ -7,7 +7,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class HealthResult {
+public class HealthResult extends BaseResult{
     private String cluster_name;
     private String status;
     private boolean timed_out;

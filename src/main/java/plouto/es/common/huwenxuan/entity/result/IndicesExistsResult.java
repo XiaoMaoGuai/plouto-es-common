@@ -7,7 +7,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class IndicesExistsResult {
+public class IndicesExistsResult extends BaseResult{
     private boolean ok;
     private boolean found;
 }

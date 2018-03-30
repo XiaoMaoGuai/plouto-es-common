@@ -1,5 +1,5 @@
 package plouto.es.common.huwenxuan.post;
 
-public interface Post<T> {
-    String post(T object);
+public interface Post<P, R> {
+    R post(P p);
 }
